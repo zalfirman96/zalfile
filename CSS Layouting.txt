@@ -1,0 +1,36 @@
+CSS (CSS Layouting - web programming unpas) 
+
+------------------------------Display-----------------------------------------------
+Display : 
+1. Inline: ke samping, tidak bisa mengatur size, ukuran sesuai konten 
+   {b, i, a, span, button, input, label, select, sub,em, text area}
+2. Block: ke bawah, jika tidak diatur lebarnya akan full, dapat mengatur size 
+   {h1-h6, p, ol, ul, li,from,hr,div}
+
+++++
+Inline-Block memiliki space di tiap konten, 
+cara menghilangkan space dengan menghapus tab-enter pada kode html
+
+------------------------------Dimensi dan Overflow----------------------------------
+Dimensi:
+memeiliki 2 properti yaitu width dan height
+Overflow:
+1. Visible: apabila child lebih besar dari parent maka konten akan keluar dari parent
+2. Auto: apabila child lebih besar dari parent maka konten akan seukuran parent dengan tidak menghilangkan konten
+	(dengan menambah scroll)
+3. Hidden: apabila child lebih besar dari parent maka konten yg melewati parent akan disembunyikan 
+4. Scroll: menambahkan scroll baik konten child lebih kecil dari parent
+
+-------------------------------Margin-----------------------------------------------
+- ketika vertical margin yg dipilih adalah margin yang paling besar tapi tidak berlaku pada negatif margin
+- ketika horizontal maka margin akan di jumlahkan antara left dan right 
+- margin: top right bot left
+
+-------------------------------Padding----------------------------------------------
+- tidak memiliki nilai negatif
+- tidak memiliki nilai auto
+- padding mempengaruhi ukuran box yang telah di atur
+
+-------------------------------Border-----------------------------------------------
+border: width style color
+style= - solid -dotted -dash -double
